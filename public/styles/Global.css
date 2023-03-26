@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* WebKit based browsers */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1F293700; /* Tailwind gray-900 */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: white; /* DaisyUI primary purple */
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-moz-scrollbar-track {
+  background-color: #1F293700; /* Tailwind gray-900 */
+}
+
+::-moz-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #7C3AED; /* DaisyUI primary purple */
+}
+
+/* IE 11+ */
+::-ms-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-ms-scrollbar-track {
+  background-color: #1F293700; /* Tailwind gray-900 */
+}
+
+::-ms-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #7C3AED; /* DaisyUI primary purple */
+}
+
+@font-face {
+  font-family: f1;
+  src: url(./../font/Montserrat.ttf);
+}
+
+body{
+  font-family: f1;
+}
+
+.slider {
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%; 
+  background: white;
+  cursor: pointer;
+  border: solid 4px rgb(17 24 39) ;
+}
