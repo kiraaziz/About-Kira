@@ -1,4 +1,4 @@
-<div class="w-full h-full py-10 lg:pr-0 px-10  flex items-center justify-center" id="Kira">
+<div class="w-full h-full py-10 lg:pr-0 lg:px-10 px-5 flex items-center justify-center" id="Kira">
     <div class="h-full w-24 lg:mx-0 mr-8 flex items-center justify-center flex-col space-y-10">
         <a class="h-max w-max" href="https://github.com/kiraaziz">
             <img class="w-8 h-8 hover:bg-gradient-to-tr from-blue-600 to-red-600  hover:scale-125 hover:-translate-y-1  ease-in-out duration-200 transition" alt="" src="/icons/my-github.svg" />
