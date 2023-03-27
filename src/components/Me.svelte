@@ -14,7 +14,7 @@
         <h1 class="text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 lg:w-max  hover:scale-110 hover:-translate-y-1 ease-in-out duration-200 transition">Hello Over There</h1>
         <h1 class="mt-14 text-2xl px-3 py-1 text-white/70">
             I am Rj Med Aziz aka         <span class="font-extrabold bg-gradient-to-tr text-transparent bg-clip-text from-blue-600 w-max to-red-600 text-white px-2"> KIRA </span>
-            And I am full stack developper 
+            And I am full stack developer 
         </h1>
         <div class="m-2 animate-pulse bg-gradient-to-tr from-blue-600 to-red-600 py-1 w-max">
             <a href="/#Stack" class="m-0.5 py-1 px-2 bg-gray-900 w-max text-xl text-white">Read More</a>
