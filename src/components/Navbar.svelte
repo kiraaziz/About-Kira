@@ -14,7 +14,7 @@
 	>
 		{#each routes as route}
 	
-			<a class="lg:w-11/12 h-[10vh] w-20  hover:font-bold font-medium rounded-lg lg:bg-primary-focus/60 hover:bg-primary-focus transition ease-in-out duration-200 hover:-translate-y-1 hover:shadow-xl flex lg:justify-start items-center justify-center lg:flex-row lg:pl-6 lg:space-x-5" href={route.url} >
+			<a class="fixed lg:w-11/12 h-[10vh] w-20  hover:font-bold font-medium rounded-lg lg:bg-primary-focus/60 hover:bg-primary-focus transition ease-in-out duration-200 hover:-translate-y-1 hover:shadow-xl flex lg:justify-start items-center justify-center lg:flex-row lg:pl-6 lg:space-x-5" href={route.url} >
 				<img class=" h-10 w-10" src={`/icons/${route.icon}.svg`} alt={route.name} />
 				<h1 class={`lg:block hidden  text-white  text-xl`}>{route.name}</h1>
 			</a>
