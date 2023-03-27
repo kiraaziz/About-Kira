@@ -28,7 +28,7 @@
 		
 	}
 </script>
-<h1 class="mt-10 text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 w-max mx-auto">My Stack</h1>
+<h1 class="mt-10 text-white text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 w-max mx-auto">My Stack</h1>
 
 <div id="Contact" class="grid bg-gray-900 max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 ">
 	<div class="flex flex-col justify-between">
@@ -41,15 +41,15 @@
 	<div class="space-y-6 ng-untouched ng-pristine ng-valid">
 		<div>
 			<label for="name" class="text-sm">Full name</label>
-			<input bind:value={name} id="name" type="text" placeholder="Kira Aziz" class="w-full p-3 rounded dark:bg-gray-800 border-2">
+			<input bind:value={name} id="name" type="text" placeholder="Kira Aziz" class="w-full p-3 rounded bg-gray-800 border-2">
 		</div>
 		<div>
 			<label for="email" class="text-sm">Email</label>
-			<input bind:value={email} id="email" type="email" placeholder="kira12@exemple.com" class="w-full border-2 p-3 rounded dark:bg-gray-800">
+			<input bind:value={email} id="email" type="email" placeholder="kira12@exemple.com" class="w-full border-2 p-3 rounded bg-gray-800">
 		</div>
 		<div>
 			<label for="message" class="text-sm">Message</label>
-			<textarea bind:value={message} id="message" rows="3" placeholder="Hello over there" class="w-full border-2 p-3 rounded dark:bg-gray-800"></textarea>
+			<textarea bind:value={message} id="message" rows="3" placeholder="Hello over there" class="w-full border-2 p-3 rounded bg-gray-800"></textarea>
 		</div>
 		<button class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-primary">Send Message</button>
 	</div>
