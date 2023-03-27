@@ -20,7 +20,7 @@
         <div  class="w-full grid lg:grid-cols-2 lg:grid-cols-1 lg:gap-2 px-5 lg:px-1 py-3">
             {#each allFramework as val}
                 {#if val.type === indexType}
-                    <div class="bg-gray-800/50 ease-in-out transition duration-100 hover:shadow-xl hover:bg-primary/50 hover:scale-105 hover:-translate-y-1 col-span-1 h-max border-4 rounded-xl border-white lg:p-5 p-3 flex items-center justify-center flex-col">
+                    <div class="bg-gray-800/50 my-1 lg:my-0 ease-in-out transition duration-100 hover:shadow-xl hover:bg-primary/50 hover:scale-105 hover:-translate-y-1 col-span-1 h-max border-4 rounded-xl border-white lg:p-5 p-3 flex items-center justify-center flex-col">
                         <img class="h-40 w-40 mb-4" alt="" src={`/icons/framework/${val.name}.svg`} />
                         <h1 class="text-xl font-bold text-white">{val.name}</h1>
     
