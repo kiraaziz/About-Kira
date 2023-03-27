@@ -14,7 +14,7 @@
     <div class="w-full h-full my-6 flex items-center justify-start flex-col lg:p-10" id="Stack">
         <div class="taps lg:m-5">
             {#each types as type , index}
-                <button on:click={()=>{indexType = -5 ; indexType = index  }} class={`tab tab-xs lg:tab-lg tab-bordered lg:text-lg font-medium ${indexType === index && "tab-active"}`}>{type}</button>
+                <button on:click={()=>{indexType = -5 ; indexType = index  }} class={`tab tab-xs lg:tab-lg text-white text-md tab-bordered lg:text-lg font-medium ${indexType === index && "tab-active"}`}>{type}</button>
             {/each}
         </div>
         <div  class="w-full grid lg:grid-cols-2 lg:grid-cols-1 lg:gap-2 px-5 lg:px-1 py-3">
