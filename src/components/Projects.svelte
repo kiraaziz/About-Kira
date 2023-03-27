@@ -8,7 +8,7 @@
 </script>
 <div class="h-max w-full flex items-center justify-start p-4 flex-col" id="Projects">
     <h1 class="mb-10 text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 ">My Projects</h1>
-    <div class="w-full grid p-2 gap-2 lg:grid-cols-3 grid-cols-1">
+    <div class="w-full grid p-2 lg:gap-2 lg:grid-cols-3 grid-cols-1">
         {#each projects as project , index}
             {#if index % 2 === 0 }
                 <div class="lg:col-span-2 hidden lg:block border-4 border-white rounded-xl w-full h-full">
