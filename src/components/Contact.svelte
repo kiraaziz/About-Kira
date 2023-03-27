@@ -30,11 +30,11 @@
 </script>
 <h1 class="mt-10 text-white text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 w-max mx-auto">My Stack</h1>
 
-<div id="Contact" class="grid bg-gray-900 max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 ">
+<div id="Contact" class="text-white grid bg-gray-900 max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 ">
 	<div class="flex flex-col justify-between">
 		<div class="space-y-2">
 			<h2 class="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-			<div class="dark:text-gray-400">Tell me what you want</div>
+			<div class="text-white">Tell me what you want</div>
 		</div>
 		<img src="/images/show2.gif" alt="" class="p-6 h-80 rounded-lg object-cover">
 	</div>
