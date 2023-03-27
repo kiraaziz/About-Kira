@@ -17,7 +17,7 @@
             And I am full stack developper 
         </h1>
         <div class="m-2 animate-pulse bg-gradient-to-tr from-blue-600 to-red-600 py-1 w-max">
-            <a href="/#Stack" class="m-0.5 py-1 px-2 bg-gray-900 w-max text-xl">Read More</a>
+            <a href="/#Stack" class="m-0.5 py-1 px-2 bg-gray-900 w-max text-xl text-white">Read More</a>
         </div>
     </div>
     <div class="h-max w-1/2 mx-4 hidden lg:block">
