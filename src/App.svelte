@@ -10,7 +10,7 @@ import Main from "./components/Main.svelte";
 </script>
 <svelte:head>
     <title>Rj Aziz : Kira</title>
-    <meta name="theme-color" content="#111827"/>
+    <meta name="theme-color" content="#7C3AED"/>
     <link rel="icon" href="/images/show.gif" />
 </svelte:head>
 <Screen>
