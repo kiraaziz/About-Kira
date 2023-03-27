@@ -10,14 +10,14 @@
 
 
 <div class="h-max w-full flex items-center justify-start p-4 flex-col" id="Stack">
-    <h1 class="text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 ">My Stack</h1>
-    <div class="w-full h-full  flex items-center justify-start flex-col lg:p-10" id="Stack">
+    <h1 class="text-4xl mt-4 font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 ">My Stack</h1>
+    <div class="w-full h-full my-6 tabs-sm flex items-center justify-start flex-col lg:p-10" id="Stack">
         <div class="taps lg:m-5">
             {#each types as type , index}
                 <button on:click={()=>{indexType = -5 ; indexType = index  }} class={`tab tab-bordered text-lg font-medium ${indexType === index && "tab-active"}`}>{type}</button>
             {/each}
         </div>
-        <div  class="w-full grid LG:grid-cols-2 grid-cols-1 gap-2 px-5 lg:px-1 p-3">
+        <div  class="w-full grid lg:grid-cols-2 lg:grid-cols-1 gap-2 px-5 lg:px-1 py-3">
             {#each allFramework as val}
                 {#if val.type === indexType}
                     <div class="bg-gray-800/50 ease-in-out transition duration-100 hover:shadow-xl hover:bg-primary/50 hover:scale-105 hover:-translate-y-1 col-span-1 h-max border-4 rounded-xl border-white p-5 flex items-center justify-center flex-col">
