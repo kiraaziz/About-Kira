@@ -17,7 +17,7 @@
                 <button on:click={()=>{indexType = -5 ; indexType = index  }} class={`tab tab-xs lg:tab-lg text-white text-md tab-bordered lg:text-lg font-medium ${indexType === index && "tab-active"}`}>{type}</button>
             {/each}
         </div>
-        <div  class="w-full grid lg:grid-cols-2 lg:grid-cols-1 lg:gap-2 px-5 lg:px-1 py-3">
+        <div  class="w-full grid lg:grid-cols-2 grid-cols-1 lg:gap-2 px-5 lg:px-1 py-3">
             {#each allFramework as val}
                 {#if val.type === indexType}
                     <div class="bg-gray-800/50 my-1 lg:my-0 ease-in-out transition duration-100 hover:shadow-xl hover:bg-primary/50 hover:scale-105 hover:-translate-y-1 col-span-1 h-max border-4 rounded-xl border-white lg:p-5 p-3 flex items-center justify-center flex-col">
