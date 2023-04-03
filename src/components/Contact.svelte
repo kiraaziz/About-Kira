@@ -28,7 +28,7 @@
 		
 	}
 </script>
-<h1 class="mt-10 text-white text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 w-max mx-auto">My Stack</h1>
+<h1 class="mt-10 text-white text-4xl font-bold shadow-xl px-3 py-1 text-white bg-gradient-to-tr from-blue-600 to-red-600 w-max mx-auto">Contact</h1>
 
 <div id="Contact" class="text-white grid bg-gray-900 max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 ">
 	<div class="flex flex-col justify-between">
