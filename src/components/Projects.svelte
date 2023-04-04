@@ -12,7 +12,7 @@
         {#each projects as project , index}
             {#if index % 2 === 0 }
                 <div class="lg:col-span-2 hidden lg:block border-4 border-white rounded-xl w-full h-full">
-                    <img src={project.images[0]} class="w-full rounded-xl h-max w-max max-h-[80vh] object-cover mx-auto" />
+                    <img src={project.images[0]} class="w-full rounded-xl h-max w-max object-cover mx-auto" />
                 </div>
                 <div class="bg-gray-800 col-span-1 rounded-xl lg:p-7 p-3 space-y-3 flex flex-col items-start justify-center  ">
 
@@ -56,7 +56,7 @@
                     </div>
                 </div> 
                 <div class="lg:col-span-2 hidden lg:block border-4 border-white rounded-xl w-full h-full">
-                    <img src={project.images[0]} class="w-full rounded-xl h-max w-max max-h-[80vh] object-cover mx-auto" />
+                    <img src={project.images[0]} class="w-full rounded-xl h-max w-max object-cover mx-auto" />
                 </div>
             {/if}
             <div class="h-2 col-span-3 rounded-2xl my-4 bg-primary mx-20 "></div>
